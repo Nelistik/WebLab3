@@ -1,4 +1,3 @@
-
 function checkSpam(str) { //объявляем функцию, параметр -- строка
   let str_2 = str.toLowerCase(); //перевод строки в н.регистр (необходимо для выполн. задания)
   return (str_2.includes('viagra') || str_2.includes('xxx')); //возврат условия
