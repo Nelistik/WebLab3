@@ -1,5 +1,5 @@
 const palindrome = str => {
-  str = str.toLowerCase() //нечуствительность к регистру
+  str = str.toLowerCase() //нечувствительность к регистру
   return (str.split('').reverse().join('')) === str //сравнение перевернутой и входной строк
 }
 
